@@ -28,6 +28,13 @@ If you want to keep a link with the original repo (also called upstream), you ne
 
 ---
 
-References:
+### [Git Command Line Samples](Git_Command_Line_Samples.md)
+
+---
+
+### References:
 * [Are git forks actually git clones?](https://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)
+* [Git Command Line Cheat Sheets](http://cheat.errtheblog.com/s/git) Comprehensive git command cheat sheets
+* [Git Magic](http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html) A good introduction to git
+* [Pro Git](https://www.git-scm.com/book/en/v2It) Open source book about git.
 * [Collaborative GitHub Workflow](http://www.eqqon.com/index.php/Collaborative_Github_Workflow)
