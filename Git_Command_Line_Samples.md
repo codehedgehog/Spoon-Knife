@@ -1,6 +1,5 @@
 ## Git Command Line Samples
 
----
 ### Essential Git Commands
 
 Create a local clone of your fork  
@@ -15,10 +14,10 @@ Add remote repository
 Commit  
 `$ git commit -a -m"The commit message"`
 
-`Push` update the server with your commits across all branches that are *COMMON* between your local copy and the server.  Local branches that were never  pushed to the server in the first place are not shared.
+`Push` update the server with your commits across all branches that are *COMMON* between your local copy and the server.  Local branches that were never  pushed to the server in the first place are not shared.  
 `$ git push`
 
-Update the server with your commits made to `<branch>` since your last push. This is always *required* for new branches that you wish to share. After the first explicit push, `git push` by itself is sufficient.
+Update the server with your commits made to `<branch>` since your last push. This is always *required* for new branches that you wish to share. After the first explicit push, `git push` by itself is sufficient.  
 `$ git push origin <branch>`
 
 Check if everything has been added or if you missed anything. Show files added to the staging area, files with changes, and untracked files  
