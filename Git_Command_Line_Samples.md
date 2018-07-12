@@ -25,10 +25,8 @@ Where git interprets `x^` as the parent of `x` and `+` as a forced non-fastforwa
 Create a local clone of your fork  
  `$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife`
 
-View Current Configured remote repository  
-```
-$ git remote -v
-```
+View current configured remote repository  
+`$ git remote -v`
 
 Add remote repository  
 `$ git remote add upstream https://github.com/octocat/Spoon-Knife.git`
@@ -36,9 +34,11 @@ Add remote repository
 Commit  
 `$ git commit -a -m"The commit message"`
 
+Check if everything has been added or if you missed anything. Show files added to the staging area, files with changes, and untracked files  
 `$ git status`  
-    Check if everything has been added or if you missed anything. Show files added to the staging area, files with changes, and untracked files
 
+`Pull` is a combination of the commands `fetch` and `merge`, so there may be merge conflicts to be manually resolved.
+`$ git pull upstream master`
 
 
 ---
@@ -47,11 +47,12 @@ Commit
 * You will use `upstream` to __fetch from the original repo__ (in order to keep your local copy in sync with the project you want to contribute to). Fetch the branches and their respective commits from the `upstream` repository. Commits to `master` will be stored in a local branch, `upstream/master`.  
 `$ git fetch upstream`
 
-* Check out your fork's local `master` branch.  
+* Check out your fork's local `master` branch.  Make the current branch `master`, updating the working directory to reflect the version referenced by `master`  
 `$ git checkout master`
 
 * Merge the changes from `upstream/master` into your local `master`  branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.  
 `$ git merge upstream/master`
+
 
 ---
 ### Stashing your code
