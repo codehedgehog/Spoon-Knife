@@ -23,12 +23,12 @@ Where git interprets `x^` as the parent of `x` and `+` as a forced non-fastforwa
  ---
 
 Create a local clone of your fork  
- ```shell
+ ```Shell
  $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
  ```
 
 View Current Configured remote repository  
-```
+```Shell
 $ git remote -v
 ```
 
