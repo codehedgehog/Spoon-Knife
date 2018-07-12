@@ -19,3 +19,15 @@ Where git interprets `x^` as the parent of `x` and `+` as a forced non-fastforwa
 #### References
 * [Revert the full commit](https://gist.github.com/gunjanpatel/18f9e4d1eb609597c50c2118e416e6a6)
  * [Git HowTo: revert a commit already pushed to a remote repository](http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html)
+
+ ---
+
+ ### __Create a local clone of your fork__  
+ `git clone https://github.com/YOUR-USERNAME/Spoon-Knife`
+
+### __View Current Configured remote repository__
+`git remote -v`
+
+### __Add remote repository__
+`git remote add upstream https://github.com/octocat/Spoon-Knife.git`
+
