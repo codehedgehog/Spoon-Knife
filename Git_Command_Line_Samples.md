@@ -46,7 +46,7 @@ Check if everything has been added or if you missed anything. Show files added t
 You got a cool new idea and start working on it. You modify some files. You are not yet done, and your changes not even compile yet. Meanwhile you read on the mailing list that someone has got a problem with a specific test case and cannot get it to work. You would like to help because you know things like these very well. But what to do with your non finished code? Stash it away!  
 `$ git stash topic_XY`
 
-Git saves away your changes and your working copy is clean and compiles again. Now you fix the bug for your friend, commit the fix and publish it to your fork where others can access it. Now you can apply your saved away changes and continue working on it:
+Git saves away your changes and your working copy is clean and compiles again. Now you fix the bug for your friend, commit the fix and publish it to your fork where others can access it. Now you can apply your saved away changes and continue working on it:  
 `$ git stash apply topic_XY`
 
 
@@ -62,7 +62,6 @@ Let's say we have a remote _origin_ repository with branch _master_ that current
 
 We want to remove the top commit.  
 Translated to git terminology: we want to force the remote _origin_ repository with branch _master_ to the parent of _dd61ab32_
-
 `git push origin +dd61ab32^:master`
 
 Where git interprets `x^` as the parent of `x` and `+` as a forced non-fastforward push.
