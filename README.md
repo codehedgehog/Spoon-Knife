@@ -24,7 +24,7 @@ If you want to contribute to the project, you can use forking to do it, in the f
 
 If you want to keep a link with the original repo (also called upstream), you need to add a remote referring that original repo.
 
-![fork and upstream](https://i.stack.imgur.com/yPKXU.png)
+![fork and upstream](content/img/cEJjT.png)
 
 ---
 
