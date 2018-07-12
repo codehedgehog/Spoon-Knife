@@ -23,15 +23,27 @@ Where git interprets `x^` as the parent of `x` and `+` as a forced non-fastforwa
  ---
 
 Create a local clone of your fork  
- `$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife`
+ ```shell
+ $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+ ```
 
 View Current Configured remote repository  
-`$ git remote -v`
+```
+$ git remote -v
+```
 
 Add remote repository
 `$ git remote add upstream https://github.com/octocat/Spoon-Knife.git`
 
+Commit
+`$ git commit -a -m"The commit message"`
 
+Check if everything has been added or if you missed anything
+`$ git status`
+
+
+
+---
 ### Syncing a fork
 
 * You will use `upstream` to __fetch from the original repo__ (in order to keep your local copy in sync with the project you want to contribute to). Fetch the branches and their respective commits from the `upstream` repository. Commits to `master` will be stored in a local branch, `upstream/master`.  
@@ -43,3 +55,15 @@ Add remote repository
 * Merge the changes from `upstream/master` into your local `master`  branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.  
 `$ git merge upstream/master`
 
+---
+### Stashing your code
+
+You got a cool new idea and start working on it. You modify some files. You are not yet done, and your changes not even compile yet. Meanwhile you read on the mailing list that someone has got a problem with a specific test case and cannot get it to work. You would like to help because you know things like these very well. But what to do with your non finished code? Stash it away!  
+```shell
+$ git stash topic_XY
+```
+
+Git saves away your changes and your working copy is clean and compiles again. Now you fix the bug for your friend, commit the fix and publish it to your fork where others can access it. Now you can apply your saved away changes and continue working on it:
+```shell
+$ git stash apply topic_XY
+```
