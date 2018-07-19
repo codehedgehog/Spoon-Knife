@@ -30,9 +30,9 @@ If you want to keep a link with the original repo (also called upstream), you ne
 * [Essentials Git Command](Essentials_Git_Commands.md)
 
 * [Syncing an upstream repository into your fork](Syncing_Upstream.md)
-  * [Syncing and merging an upstream repository into your fork](Syncing_upstream#Syncing_and_merging_an_upstream_repository_into_your_fork)
+  * Syncing and merging an upstream repository into your fork
 
-* [Miscellaneous Git scenarios]()
+* [Miscellaneous Git scenarios](Miscellaneous_Git_Scenarios.md)
   * Stashing Your Code
   * Delete last commit
 
