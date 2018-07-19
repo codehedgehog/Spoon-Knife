@@ -8,7 +8,7 @@ Create a local clone of your fork
 View current configured remote repository  
 `$ git remote -v`
 
-Add remote repository  
+Add remote repository / remote branch
 `$ git remote add upstream https://github.com/octocat/Spoon-Knife.git`
 
 Commit  
@@ -26,18 +26,10 @@ Check if everything has been added or if you missed anything. Show files added t
 `Pull` is a combination of the commands `fetch` and `merge`, so there may be merge conflicts to be manually resolved.  
 `$ git pull upstream master`
 
+Basically:   
+* `git pull` = `git fetch` + `git merge`  
+* `git pull -r` = `git fetch` + `git rebase`
 
----
-### Syncing a fork
-
-* You will use `upstream` to __fetch from the original repo__ (in order to keep your local copy in sync with the project you want to contribute to). Fetch the branches and their respective commits from the `upstream` repository. Commits to `master` will be stored in a local branch, `upstream/master`.  
-`$ git fetch upstream`
-
-* Check out your fork's local `master` branch.  Make the current branch `master`, updating the working directory to reflect the version referenced by `master`  
-`$ git checkout master`
-
-* Merge the changes from `upstream/master` into your local `master`  branch. This brings your fork's `master` branch into sync with the upstream repository, without losing your local changes.  
-`$ git merge upstream/master`
 
 
 ---

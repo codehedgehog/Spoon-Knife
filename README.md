@@ -11,7 +11,6 @@ For some more information on how to fork a repository, [check out our guide, "Fo
 ---
 ## Forking and Cloning
 
-
 __[Fork](https://help.github.com/articles/fork-a-repo)__, in the GitHub context, doesn't extend Git.
 It only allows clone on the server side.
 
@@ -28,7 +27,14 @@ If you want to keep a link with the original repo (also called upstream), you ne
 
 ---
 
-### [Git Command Line Samples](Git_Command_Line_Samples.md)
+* [Essentials Git Command](Essentials_Git_Commands.md)
+
+* [Syncing an upstream repository into your fork](Syncing_Upstream.md)
+  * [[ Syncing and merging an upstream repository into your fork | Syncing_Upstream#Syncing_and_merging_an-upstream_repository_into_ your_fork ]]
+
+* [Miscellaneous Git scenarios]()
+  * Stashing Your Code
+  * Delete last commit
 
 ---
 
