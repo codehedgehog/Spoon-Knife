@@ -8,7 +8,7 @@ Create a local clone of your fork
 View current configured remote repository  
 `$ git remote -v`
 
-Add remote repository / remote branch
+Add remote repository / remote branch  
 `$ git remote add upstream https://github.com/octocat/Spoon-Knife.git`
 
 Commit  
