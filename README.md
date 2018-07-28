@@ -29,7 +29,7 @@ If you want to keep a link with the original repo (also called upstream), you ne
 
 * [Essentials Git Command](Essentials_Git_Commands.md)
 
-* [Branching and Merging](Branching and Merging.md)
+* [Branching and Merging](Branching_Merging.md)
 
 * [Syncing an upstream repository into your fork](Syncing_Upstream.md)
   * [Syncing and merging an upstream repository into your fork](Syncing_Upstream.md#syncing-and-merging-an-upstream-repository-into-your-fork)
