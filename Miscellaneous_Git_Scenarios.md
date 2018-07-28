@@ -10,7 +10,26 @@ Git saves away your changes and your working copy is clean and compiles again. N
 
 
 ---
-### __Delete the last commit__
+### Revert to the last commit
+
+Revert to the last commit
+`$ git revert HEAD`
+
+Revert to the next-to-last commit
+`$ git revert HEAD^`
+
+Revert your work to the desired commit
+`$ git reset <commit_number>`
+
+In case you wrongly added files to commit, use `git reset`  
+For example: 
+`$ git reset db/schema.rb` would remove this file from the files to be committed.
+
+Delete files and remove them from the Git history
+`$ git rm $(git ls-files –deleted)`
+
+
+---
 
 If the branch _master_ checked out locally
 1. reset the branch to the parent of the current commit: `git reset HEAD^ --hard`

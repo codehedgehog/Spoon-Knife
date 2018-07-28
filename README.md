@@ -29,12 +29,14 @@ If you want to keep a link with the original repo (also called upstream), you ne
 
 * [Essentials Git Command](Essentials_Git_Commands.md)
 
+* [Branching and Merging](Branching_Merging.md)
+
 * [Syncing an upstream repository into your fork](Syncing_Upstream.md)
   * [Syncing and merging an upstream repository into your fork](Syncing_Upstream.md#syncing-and-merging-an-upstream-repository-into-your-fork)
 
 * [Miscellaneous Git scenarios](Miscellaneous_Git_Scenarios.md)
-  * Stashing Your Code
-  * Delete last commit
+  * [Stashing Your Code](Miscellaneous_Git_Scenarios.md#stashing-your-code)
+  * [Revert to the last commit](Miscellaneous_Git_Scenarios.md#revert-to-the-last-commit)
 
 ---
 
