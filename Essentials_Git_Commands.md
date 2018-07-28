@@ -30,9 +30,14 @@ Check if everything has been added or if you missed anything. Show files added t
 Example:   
 `$ git pull upstream master`   
 
-
 Basically:   
 * `git pull` = `git fetch` + `git merge`  
 * `git pull -r` = `git fetch` + `git rebase`
 
 Using the `--rebase` flag will pop out your local changes, do a fast-forward to what the remote branch has, THEN place your commits on top.
+
+To avoid messy merge commits and help keep a relatively clean git commit history use the following workflow when fetching upstream changes:
+```
+$ git fetch origin
+$ git rebase −p origin/develop
+```
