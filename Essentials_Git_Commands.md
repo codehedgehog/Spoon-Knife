@@ -23,8 +23,13 @@ Update the server with your commits made to `<branch>` since your last push. Thi
 Check if everything has been added or if you missed anything. Show files added to the staging area, files with changes, and untracked files  
 `$ git status`  
 
+---
+
 `Pull` is a combination of the commands `fetch` and `merge`, so there may be merge conflicts to be manually resolved.  
-`$ git pull upstream master`
+`$ git pull origin <branchname>` will get latest code for single branch which resides on the "origin" tree  
+Example:   
+`$ git pull upstream master`   
+
 
 Basically:   
 * `git pull` = `git fetch` + `git merge`  
