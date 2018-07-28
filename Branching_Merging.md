@@ -18,4 +18,9 @@ Merge the current branch to the `master` branch: `$ git merge origin master`
 
 Merge the work you've done in your own branch with an existing branch: `$ git merge --no-ff myfeature`
 
-Delete a branch with this command: `git branch -d myfeature`
+Delete a branch with this command   
+`git branch -d myfeature`
+
+Delete a branch on the remote("server")  
+`git push origin :new_feature_name`
+
