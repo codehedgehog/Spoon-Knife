@@ -35,8 +35,8 @@ If you want to keep a link with the original repo (also called upstream), you ne
   * [Syncing and merging an upstream repository into your fork](Syncing_Upstream.md#syncing-and-merging-an-upstream-repository-into-your-fork)
 
 * [Miscellaneous Git scenarios](Miscellaneous_Git_Scenarios.md)
-  * [Stashing Your Code](Miscellaneous_Git_Scenarios.md#Stashing-Your-Code)
-  * [Revert to the last commit](Miscellaneous_Git_Scenarios.md#Revert-to-the-last-commit)
+  * [Stashing Your Code](Miscellaneous_Git_Scenarios.md#stashing-your-code)
+  * [Revert to the last commit](Miscellaneous_Git_Scenarios.md#revert-to-the-last-commit)
 
 ---
 
